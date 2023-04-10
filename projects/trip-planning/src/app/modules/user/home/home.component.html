@@ -1,1 +1,135 @@
-<p>home works!</p>
+<section id="showcase" class="d-flex justify-content-center align-items-center">
+  <div id="overlay"></div>
+  <div id="header" class="container text-white text-center">
+    <h3 class="display-3 mb-0 d-flex">Explore</h3>
+    <h3 class="display-2 mb-0 d-flex">Beautiful</h3>
+    <h3 class="display-3 mb-0 d-flex">Country!</h3>
+    <h1 class="display-1 d-flex">Myanmar</h1>
+    <p class="lead d-flex"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quis voluptates vero eaque architecto error quam nisi facilis, ratione neque numquam veritatis aliquid, repudiandae assumenda id cupiditate necessitatibus. Vero, atque. </p>
+    <a [routerLink]="['/booking']" routerLinkActive="active" id="book" class="btn btn-lg btn-outline-light px-5">Book Now</a>
+  </div>
+</section>
+
+<section>
+  <div class="container mt-4 text-center">
+      <h1>AVAILABLE PACKAGES</h1>
+      <h3>We have prepared some packages for our customers.</h3>
+      <div class="row my-3">
+          <div class="col-md-4">
+              <div class="card shadow">
+                <div class="container p-1">
+                  <img src="../../../../assets/images/background.jpg" class="card-img-top" alt="Card Image">
+                </div>
+                  <div class="card-body">
+                      <h3 class="text-primary card-title">Holiday Special</h3>
+                      <p class="card-text" th:text="${books[1].description}"></p>
+                      <a href="" class="btn btn-outline-primary btn-block">See Details</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card shadow">
+                <div class="container p-1">
+                  <img src="../../../../assets/images/background.jpg" class="card-img-top" alt="Card Image">
+                </div>
+                  <div class="card-body">
+                      <h3 class="text-primary card-title">Thingyan Festival</h3>
+                      <p class="card-text" th:text="${books[3].description}"></p>
+                      <a href="" class="btn btn-outline-primary btn-block">Details</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow">
+                <div class="container p-1">
+                  <img src="../../../../assets/images/background.jpg" class="card-img-top" alt="Card Image">
+                </div>
+                <div class="card-body">
+                    <h3 class="text-primary card-title">Summer Holiday</h3>
+                    <p class="card-text" th:text="${books[3].description}"></p>
+                    <a href="" class="btn btn-outline-primary btn-block">Check Details</a>
+                </div>
+            </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<div class="container">
+  <hr style=" border: 1px solid;">
+</div>
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="" class="navbar-brand">POPULAR PLACES</a>
+    <button class="navbar-toggler" data-toggle="collapse" type="button" data-target="#navbarTest" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+
+    </div>
+    <span class="navbar-text">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a href="#" class="nav-link">HOTELS</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">LOCATIONS</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">RESTAURANTS</a>
+        </li>
+      </ul>
+    </span>
+  </nav>
+  <div class="row my-3">
+    <div class="col-md-3">
+        <div class="card shadow">
+          <div class="container p-1">
+            <img src="../../../../assets/images/background.jpg" class="card-img-top" alt="Card Image">
+          </div>
+            <div class="card-body">
+                <h3 class="text-primary card-title">Holiday Special</h3>
+                <p class="card-text" th:text="${books[1].description}"></p>
+                <a href="" class="btn btn-outline-primary btn-block">See Details</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card shadow">
+          <div class="container p-1">
+            <img src="../../../../assets/images/background.jpg" class="card-img-top" alt="Card Image">
+          </div>
+            <div class="card-body">
+                <h3 class="text-primary card-title">Thingyan Festival</h3>
+                <p class="card-text" th:text="${books[3].description}"></p>
+                <a href="" class="btn btn-outline-primary btn-block">Details</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card shadow">
+        <div class="container p-1">
+          <img src="../../../../assets/images/background.jpg" class="card-img-top" alt="Card Image">
+        </div>
+          <div class="card-body">
+              <h3 class="text-primary card-title">Thingyan Festival</h3>
+              <p class="card-text" th:text="${books[3].description}"></p>
+              <a href="" class="btn btn-outline-primary btn-block">Details</a>
+          </div>
+      </div>
+  </div>
+    <div class="col-md-3">
+      <div class="card shadow">
+          <div class="container p-1">
+            <img src="../../../../assets/images/background.jpg" class="card-img-top" alt="Card Image">
+          </div>
+          <div class="card-body">
+              <h3 class="text-primary card-title">Summer Holiday</h3>
+              <p class="card-text" th:text="${books[3].description}"></p>
+              <a href="" class="btn btn-outline-primary btn-block">Check Details</a>
+          </div>
+      </div>
+  </div>
+</div>
+</div>

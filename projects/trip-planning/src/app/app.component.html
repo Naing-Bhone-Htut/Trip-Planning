@@ -1,1 +1,28 @@
-<router-outlet></router-outlet>
+
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a [routerLink]="['/home']" routerLinkActive="active" class="nav-link m-2 active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['/booking']" routerLinkActive="active" class="nav-link m-2 active">Plan Your Trip</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['/home']" class="nav-link m-2 active">Place Logo Image Here</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['/locations']" routerLinkActive="active" class="nav-link m-2 active">Locations</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['/hotels']" routerLinkActive="active" class="nav-link m-2 active">Hotels</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <router-outlet></router-outlet>
+

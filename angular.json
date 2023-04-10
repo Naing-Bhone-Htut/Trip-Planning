@@ -115,7 +115,7 @@
             "styles": [
               "projects/trip-planning/src/styles.css"
             ],
-            "scripts": []
+            "scripts": [            ]
           }
         }
       }

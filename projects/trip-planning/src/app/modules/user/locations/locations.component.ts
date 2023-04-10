@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   templateUrl: './locations.component.html',
-  styles: [
-  ]
+  styleUrls: ['./locations.component.css']
 })
 export class LocationsComponent {
 
