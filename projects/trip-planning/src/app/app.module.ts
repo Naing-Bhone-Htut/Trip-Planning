@@ -6,6 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserModule } from './modules/user/user.module';
 import { AdminModule } from './modules/admin/admin.module';
+import { PackageCardComponent } from './modules/utilities/package-card/package-card.component';
+import { UtilitiesModule } from './modules/utilities/utilities.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { AdminModule } from './modules/admin/admin.module';
     AppRoutingModule,
     UserModule,
     AdminModule,
-    CarouselModule
+    CarouselModule,
+    UtilitiesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

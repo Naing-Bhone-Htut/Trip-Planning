@@ -1,0 +1,17 @@
+<main>
+  <div class = "card">
+    <img id="customimg" [src]="imgUrl" alt="card">
+    <div class="card-content">
+      <h2>
+        {{title}}
+      </h2>
+      <ng-content></ng-content>
+      <a href="#" class="button">
+        Find out more
+        <span class="material-symbols-outlined">
+          arrow_right_alt
+        </span>
+      </a>
+    </div>
+  </div>
+</main>
