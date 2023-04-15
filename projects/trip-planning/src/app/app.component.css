@@ -5,11 +5,6 @@
   color: #333;
 }
 
-/* Navbar toggler styles */
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
 /* Navbar link styles */
 .navbar-nav .nav-link {
   color: #333;
@@ -19,12 +14,12 @@
 }
 
 .navbar-nav .nav-link:hover {
-  color: #777;
+  color: #2ec9c6;
 }
 
 /* Navbar background color */
-.navbar-light {
-  background-color: #fff;
+.navbar-color {
+  background-color: #e8e8e8d1;
 }
 
 /* Navbar shadow */

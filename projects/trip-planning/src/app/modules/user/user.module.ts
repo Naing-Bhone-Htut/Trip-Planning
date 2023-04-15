@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 import { UserRoutingModule } from './user-routing.module';
 import { UserComponent } from './user.component';
@@ -22,7 +21,6 @@ import { UtilitiesModule } from '../utilities/utilities.module';
   imports: [
     CommonModule,
     UserRoutingModule,
-    CarouselModule.forRoot(),
     UtilitiesModule
   ],
   exports: [

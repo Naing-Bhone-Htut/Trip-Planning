@@ -1,0 +1,23 @@
+<main>
+  <div class="card text-white card-has-bg click-col"
+          [style.background-image]="'url('+imgUrl+')'">
+          <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+              <h2 class="card-title mt-0 "><a class="text-white" herf="#">{{hotelName}}</a></h2>
+              <small><i class="bi bi-geo-alt"></i>{{location}}</small>
+            </div>
+            <div class="card-footer">
+              <div class="media">
+                <div class="media-body">
+                  <ng-content></ng-content>
+                    Find out more
+                    <span class="material-symbols-outlined">
+                      arrow_right_alt
+                    </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+</main>
